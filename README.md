@@ -6,6 +6,8 @@ Microsoft's GIT (GenerativeImage2Text), base-sized, fine-tuned on COCO is used h
 
 During first start the app downloads the model and it is about 800 MiB in size.
 
+Demo Video: [https://drive.google.com/file/d/1BJOvhazDG5ELEV3NCNnPC1LgLePTZHR2/view?usp=sharing](https://drive.google.com/file/d/1BJOvhazDG5ELEV3NCNnPC1LgLePTZHR2/view?usp=sharing)
+
 ## Usage
 You should have PyTorch setup.  
 Note: CPU and CUDA versions of PyTorch are setup differently on different os look more at https://pytorch.org/get-started/locally/
@@ -23,10 +25,7 @@ Now you can reach the app at http://localhost:8501 or the port streamlit chooses
 ## Screenshot
 ![screenshot](./images/screenshot.png)
 
-
 ## Samples
-
-
 
 | Syntax      | Description |
 | ----------- | ----------- |
