@@ -12,7 +12,7 @@ def load_captioning_model():
 
     return model, processor
 
-def generate_captions(_image, _model, _processor, num_beams=8):
+def generate_captions(_image, _model, _processor, num_beams=1):
     """
     Takes in a pillow image, the captioning model and its preprocessor
     and returns a caption
